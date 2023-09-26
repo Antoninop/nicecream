@@ -1,0 +1,112 @@
+html{
+    font-size: 12px;
+}
+
+body{
+    background-color: white;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.hero-section{
+    border: 2px solid black;
+    border-radius: 2rem 2rem 0rem 0rem;
+    width: 100%;
+    height: 45rem;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction:row;
+    background-color: #fdf7f2;
+    padding-bottom: 3rem;
+    z-index: 1;
+}
+
+.about-section{
+    border: 2px solid black;
+    border-radius: 4rem 0rem 3rem 3rem;
+    width: 100%;
+    height: 45rem;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction:row;
+    background-color: #fcc6e7;
+    margin-top: -4rem;
+    z-index: 2;
+}
+
+
+.tre-section{
+    border: 2px solid black;
+    border-top: 0px;
+    width: 100%;
+    height: 45rem;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction:row;
+    background-color: #fdf7f2;
+    margin-top: -5rem;
+}
+
+
+
+.imgsec{
+    background-image: url("https://static.actu.fr/uploads/2022/07/62dcdb9579d2646dcdb9579d21adcdv-960x640.jpg");
+    width: 45rem;
+    height: 45rem;
+    background-position: center;
+    background-size:150%;
+    background-repeat: no-repeat;
+    border-radius: 0px 2rem 0px 20rem;
+    border:2px solid black;
+    border-top: 0px;
+    border-right: 0px;
+}
+
+.txtsec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 5rem;     
+}
+
+.txtsec h1{
+font-size: 7em;
+font-family: 'Shrikhand', cursive;
+}
+
+.txtsec h3{
+font-size: 1.8rem;
+width: 30rem;
+margin-top: -5rem;
+text-align: center;
+}
+
+
+.btn {
+    display: flex;
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    padding: .2em 1.2em .3em 1.2em;
+    text-decoration: none;
+    margin-top: 3rem;
+    background-color: transparent;
+    border-radius: 4rem;
+    width: 15rem;
+    height: 5rem;
+    border: 0.2rem solid black;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
