@@ -5,8 +5,6 @@ html{
 
 }
 
-
-
 body{
     background-color: white;
     font-family: 'Baloo 2';
@@ -384,15 +382,12 @@ height: 30rem;
    justify-content: start !important;
 }
 
-
-
-  
   
   .faq-section h1 {
       font-size: 5rem;
       color: black;
       padding-top: 5rem;
-      padding-bottom: 8rem;
+      padding-bottom: 5rem;
       margin-left: 3rem;
   }
     
@@ -413,13 +408,15 @@ height: 30rem;
   .accordion-button:not(.collapsed){
     background-color: #fedfee;
     color: black;
-    
+    font-weight: 700;
+    font-style: italic;
   }
   
   .accordion-button{
     background-color: #fedfee;
     color: black;
     outline: none;
+    font-weight: 700;
   }
   
   .accordion-button:focus{
@@ -428,12 +425,12 @@ height: 30rem;
   }
   
   .accordion-body{
-    background-color: #fedfee;
+    background-color: #dabfcc;
     color: black;
   }
   
   .hero-faq{
-    height: 85rem;
+    height: 92.5rem;
   }
   
 
@@ -441,17 +438,24 @@ height: 30rem;
 
 @media screen and (min-width: 1600px){
     html{
-        font-size: 14px;
+        font-size: 16px;
     }
     
 }
 
 
-@media screen and (min-width: 1450px){
+@media screen and (min-width: 1500px){
     html{
-        font-size: 14px;
+        font-size: 15px;
     }
     
+}
+
+
+@media screen and (min-width: 1400px){
+    html{
+        font-size: 15.5px;
+    } 
 }
 
 
